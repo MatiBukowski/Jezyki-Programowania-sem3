@@ -14,7 +14,6 @@ public class MenuScreen extends JFrame implements ActionListener {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         addPanel();
-
     }
 
     @Override
@@ -50,6 +49,12 @@ public class MenuScreen extends JFrame implements ActionListener {
             Zad5 zad5 = new Zad5();
             zad5.setVisible(true);
             zad5.setMenuScreen(this);
+        }
+        else if(source == b_6) {
+            this.setVisible(false);
+            Zad6 zad6 = new Zad6();
+            zad6.setVisible(true);
+            zad6.setMenuScreen(this);
         }
 
 

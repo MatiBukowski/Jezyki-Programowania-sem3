@@ -25,19 +25,6 @@ public class Zad1 extends JFrame implements ActionListener {
         addPanel4();
     }
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-        Object source = e.getSource();
-
-        if(source == b_1) {
-            textArea.setText("Text: " + textField.getText() + "\nPassword: " + passwordField.getText());
-        }
-        else if(source == b_exit) {
-            this.setVisible(false);
-            menuScreen.setVisible(true);
-        }
-    }
-
     public void addPanel1() {
         label1 = new JLabel("Podaj tekst");
         label1.setFont(new Font("SanSerif", Font.BOLD, 20));
@@ -78,6 +65,7 @@ public class Zad1 extends JFrame implements ActionListener {
         textArea = new JTextArea();
         textArea.setColumns(30);
         textArea.setRows(5);
+        textArea.setEditable(false);
         b_exit = new JButton("Wyjdź");
         b_exit.addActionListener(this);
 
@@ -88,6 +76,18 @@ public class Zad1 extends JFrame implements ActionListener {
         panel4.add(textArea);
         panel4.add(b_exit);
         add(panel4);
+    }
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        Object source = e.getSource();
+
+        if(source == b_1) {
+            textArea.setText("Text: " + textField.getText() + "\nPassword: " + passwordField.getText());
+        }
+        else if(source == b_exit) {
+            this.setVisible(false);
+            menuScreen.setVisible(true);
+        }
     }
 
     public void setMenuScreen(MenuScreen menuScreen) {

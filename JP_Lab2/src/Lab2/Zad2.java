@@ -15,7 +15,7 @@ public class Zad2 extends JFrame implements ActionListener {
     private int label_height = 50;
     public Zad2() {
         setSize(700,500);
-        setTitle("Zadanie 1");
+        setTitle("Zadanie 2");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
         setResizable(false);

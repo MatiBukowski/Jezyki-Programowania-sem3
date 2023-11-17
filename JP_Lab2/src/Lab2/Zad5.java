@@ -78,7 +78,7 @@ public class Zad5 extends JFrame implements ActionListener {
             l_info.setText("Hasło średniej trudności");
         else if(passwordField.getText().length()<12 && number_of_characters==0 && number_of_digit==0)
             l_info.setText("Hasło słabe");
-        else if((passwordField.getText().length()>5 && passwordField.getText().length()<=10) && ((number_of_characters)>0 || number_of_digit>0))
+        else if((passwordField.getText().length()>5 && passwordField.getText().length()<=15) && ((number_of_characters)>0 || number_of_digit>0))
             l_info.setText("Hasło średniej trudności");
         else if((passwordField.getText().length()>0 && passwordField.getText().length()<=5) && ((number_of_characters>0 && number_of_characters<=2) || (number_of_digit>0 && number_of_digit<=2)))
             l_info.setText("Hasło słabe");

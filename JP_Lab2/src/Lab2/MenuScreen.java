@@ -9,7 +9,7 @@ public class MenuScreen extends JFrame implements ActionListener {
     private JButton b_1, b_2, b_3, b_4, b_5, b_6, b_7;
     private JPanel panel;
     public MenuScreen() {
-        setSize(700,500);
+        setSize(700,600);
         setTitle("Menu Screen");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout());
@@ -55,6 +55,12 @@ public class MenuScreen extends JFrame implements ActionListener {
             Zad6 zad6 = new Zad6();
             zad6.setVisible(true);
             zad6.setMenuScreen(this);
+        }
+        else if(source == b_7) {
+            this.setVisible(false);
+            Zad7 zad7 = new Zad7();
+            zad7.setVisible(true);
+            zad7.setMenuScreen(this);
         }
 
 

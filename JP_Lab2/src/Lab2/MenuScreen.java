@@ -67,8 +67,19 @@ public class MenuScreen extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        MenuScreen menuScreen = new MenuScreen();
-        menuScreen.setVisible(true);
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                try{
+                    MenuScreen menuScreen = new MenuScreen();
+                    menuScreen.setVisible(true);
+
+                } catch (Exception e) {
+                    e.printStackTrace(System.err);
+                }
+
+            }
+        });
     }
 
     public void addPanel() {

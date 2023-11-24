@@ -33,6 +33,7 @@ public class Zad4 extends JFrame implements ActionListener {
 
         t_result = new JTextField();
         t_result.setBounds(50,25,300, 50);
+        t_result.setFont(new Font("Book Antique", Font.BOLD, 40));
         t_result.setEditable(false);
         mainPanel.add(t_result);
 

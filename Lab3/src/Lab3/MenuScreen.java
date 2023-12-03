@@ -67,7 +67,6 @@ public class MenuScreen extends JFrame implements ActionListener {
                 } catch (Exception e) {
                     e.printStackTrace(System.err);
                 }
-
             }
         });
     }
@@ -94,6 +93,23 @@ public class MenuScreen extends JFrame implements ActionListener {
             zad3.setVisible(true);
             zad3.setMenuScreen(this);
         }
+        else if(source == b_4) {
+            this.setVisible(false);
+            Zad4 zad4 = new Zad4();
+            zad4.setVisible(true);
+            zad4.setMenuScreen(this);
+        }
+        else if(source == b_5) {
+            this.setVisible(false);
+            Zad5 zad5 = new Zad5();
+            zad5.setVisible(true);
+            zad5.setMenuScreen(this);
+        }
+        else if(source == b_6) {
+            this.setVisible(false);
+            Zad6 zad6 = new Zad6();
+            zad6.setVisible(true);
+            zad6.setMenuScreen(this);
+        }
     }
-
 }

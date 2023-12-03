@@ -16,7 +16,7 @@ public class Zad2 extends JFrame implements ActionListener{
 
     public Zad2() {
         setSize(700, 600);
-        setTitle("Zad 1");
+        setTitle("Zad 2");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new GridLayout(1, 2));
 
@@ -25,6 +25,36 @@ public class Zad2 extends JFrame implements ActionListener{
     }
 
     public void addPanel1() {
+        addOptionPane();
+
+        panel1 = new Draw(rect_width, rect_height, oval_width, oval_height);
+        panel1.setLayout(new BorderLayout());
+
+        add(panel1);
+    }
+
+    public void addPanel2() {
+        panel2 = new JPanel();
+        panel2.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 100));
+
+        label = new JLabel("Move shape by dragging mouse");
+        label.setForeground(Color.GREEN);
+        label.setFont(new Font("Serif", Font.BOLD, 18));
+        label.setHorizontalAlignment(SwingConstants.CENTER);
+
+        b_exit = new JButton("Exit");
+        b_exit.setBackground(Color.RED);
+        b_exit.setFocusable(false);
+        b_exit.setPreferredSize(new Dimension(100, 50));
+        b_exit.addActionListener(this);
+
+        panel2.add(label);
+        panel2.add(b_exit);
+
+        add(panel2);
+    }
+
+    public void addOptionPane() {
         int check = 0;
 
         JTextField field1 = new JTextField();
@@ -58,32 +88,6 @@ public class Zad2 extends JFrame implements ActionListener{
                 JOptionPane.showConfirmDialog(null, "It's not a number", "Error", JOptionPane.WARNING_MESSAGE);
             }
         }
-
-        panel1 = new Draw(rect_width, rect_height, oval_width, oval_height);
-        panel1.setLayout(new BorderLayout());
-
-        add(panel1);
-    }
-
-    public void addPanel2() {
-        panel2 = new JPanel();
-        panel2.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 100));
-
-        label = new JLabel("Move shape by dragging mouse");
-        label.setForeground(Color.GREEN);
-        label.setFont(new Font("Serif", Font.BOLD, 18));
-        label.setHorizontalAlignment(SwingConstants.CENTER);
-
-        b_exit = new JButton("Exit");
-        b_exit.setBackground(Color.RED);
-        b_exit.setFocusable(false);
-        b_exit.setPreferredSize(new Dimension(100, 50));
-        b_exit.addActionListener(this);
-
-        panel2.add(label);
-        panel2.add(b_exit);
-
-        add(panel2);
     }
 
     @Override
@@ -181,7 +185,7 @@ class Draw extends JPanel implements MouseListener, MouseMotionListener{
 
             x_rect = mx - offSetX;
             y_rect = my - offSetY;
-            rectangle2D = new Rectangle2D.Double(x_rect,y_rect,rect_width, rect_height);
+            //rectangle2D = new Rectangle2D.Double(x_rect,y_rect,rect_width, rect_height);
             repaint();
         }
 
@@ -191,7 +195,7 @@ class Draw extends JPanel implements MouseListener, MouseMotionListener{
 
             x_oval = (int)(mx - offSetX);
             y_oval = (int)(my - offSetY);
-            circle = new Ellipse2D.Double(x_oval, y_oval, oval_width, oval_height);
+            //circle = new Ellipse2D.Double(x_oval, y_oval, oval_width, oval_height);
             repaint();
         }
     }

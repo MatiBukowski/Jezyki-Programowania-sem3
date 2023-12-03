@@ -3,7 +3,6 @@ package Lab3;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
-import java.net.SocketOption;
 
 import static javax.swing.GroupLayout.Alignment.BASELINE;
 import static javax.swing.GroupLayout.Alignment.LEADING;
@@ -38,10 +37,12 @@ public class Zad3 extends JFrame implements KeyListener, ActionListener {
         l_Info.setPreferredSize(new Dimension(300, 100));
         b_exit = new JButton("Exit");
         b_exit.setPreferredSize(new Dimension(100, 50));
+        b_exit.setBackground(Color.RED);
         b_exit.setFocusable(false);
         b_exit.addActionListener(this);
         textField = new JTextField();
         textField.setPreferredSize(new Dimension(200, 30));
+        textField.setFont(new Font("Serif", Font.BOLD, 20));
         textField.addKeyListener(this);
         textField.addActionListener(this);
 

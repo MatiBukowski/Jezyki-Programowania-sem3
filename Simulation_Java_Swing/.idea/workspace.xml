@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ac0516e7-bb7b-4216-898f-5daa521a1ef9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/Bullet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/MenuButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/java/org/example/Lab4/MenuScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Game_java_swing/src/main/resources/Images/stickman3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab4/GamePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab4/GameScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab4/MenuButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab4/MenuScreen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lab4/Speed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab3/src/Lab3/Zad4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/src/Lab3/Zad4.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ZLy2jwK3nVWtAxb9iG3cYskNm4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/mateu/IdeaProjects/Java-Jezyki_Programowania-semstr III/Laboratoria/Simulation_Java_Swing/src/main/java/org/example/Lab4",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mateu\IdeaProjects\Java-Jezyki_Programowania-semstr III\Laboratoria\Simulation_Java_Swing\src\main\java\org\example\Lab4" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac0516e7-bb7b-4216-898f-5daa521a1ef9" name="Changes" comment="" />
+      <created>1702215450481</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702215450481</updated>
+      <workItem from="1702215451719" duration="8818000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

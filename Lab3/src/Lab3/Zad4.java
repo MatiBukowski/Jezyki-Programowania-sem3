@@ -13,8 +13,6 @@ public class Zad4 extends JFrame implements ActionListener {
     private JButton b_exit;
     private JLabel label;
     private int rect_width, rect_height, oval_width, oval_height;
-    private Timer timer;
-
 
     public Zad4() {
         setSize(700, 600);
@@ -126,7 +124,7 @@ class Draw_2 extends JPanel implements MouseListener, ActionListener {
         this.oval_width = oval_width;
         this.oval_height = oval_height;
         addMouseListener(this);
-        timer = new Timer(20, this);
+        timer = new Timer(10, this);
         timer.start();
     }
 
